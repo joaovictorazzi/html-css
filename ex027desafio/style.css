@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(222, 212, 212);
+    width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-image:linear-gradient(To bottom, rgb(51, 153, 51), rgb(23, 101, 23), rgb(1, 37, 1));
+    box-shadow: 1px 1px 0px 1px rgb(70, 59, 59);
+    padding: 0px;
+    color: white;
+    height: 180px;
+    }
+
+#principal {
+    margin:auto;
+    text-align: center;
+    padding-top: 25px;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    margin-top: 75px;
+    margin-right: 50px;
+
+}
+
+main {
+    background-color: white;
+    padding: 0px;
+    outline: 25px;
+    margin: 25px;
+    outline-style: solid;
+    outline-color: white;
+    box-shadow: 1px 1px 0px 1px rgb(70, 59, 59);
+}
+

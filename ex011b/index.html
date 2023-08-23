@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midies em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir em dispositivos diferentes ou diminua o navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imanges/300.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imanges/700.png" type="image/png">
+        <img src="imanges/1000.png" alt="">
+
+    <!-- Sempre prestar atenção na ordem
+    
+        O suorce da menor imagem sempre por cima. 
+    
+    -->
+    </picture>
+
+ 
+<h1>Reproduzindo áudio</h1>
+
+<p>Aprendendo a reproduzir barulho</p>
+<audio src="High Noon - TrackTribe.mp3" controls autoplay></audio>
+<!-- MP3 WAV OGG -->
+
+<audio preload="metadata" autoplay controls loop> 
+<source src="High Noon - TrackTribe.mp3" type="audio/mpeg">
+<source src="High Noon - TrackTribe.ogg" type="audio/ogg">
+<source src="High Noon - TrackTribe.wav" type="audio/ogg">
+<p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="High Noon - TrackTribe.mp3">Clique aqui para baixar seu áudio</a></p>
+</audio>
+</body>
+</html>

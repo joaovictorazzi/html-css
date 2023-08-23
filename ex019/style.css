@@ -1,0 +1,39 @@
+h1 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: green;}
+h2 {
+
+    color: darkgreen;
+}
+
+p {
+
+    color: black;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+
+background-image: linear-gradient(to bottom, white, white, #16ad4d95);
+
+background-attachment: fixed;
+}
+
+#titulo-principal {
+
+    font-size: 45px;
+    font-family: serif;
+    text-align: center;
+}
+
+.texto {
+
+    text-align: right;
+}
+
+.topico {
+
+    background-color: #16ad4d95;
+    color: white;
+    text-align: center;
+}

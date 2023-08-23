@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&family=Irish+Grover&display=swap');
+
+body {
+    background-image: linear-gradient(to right, rgb(234, 243, 247), rgb(208, 255, 248)) ;
+    background-attachment: fixed;
+    max-width: 1200px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+}
+
+#id{
+    font-family: Girassol, serif;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.opcao {
+    font-family: Girassol, serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+   
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    border-top: 0.2px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    
+}
+
+#testando {
+    margin-top: 200px;
+    font-family: Irish Grover, Sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 150px;
+
+}
+
+.first{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    font-weight: 200;
+    margin-left: 220px;
+    margin-top: -34px;
+}
+
+#usos {
+    margin-top: 200px;
+    font-family: Irish Grover, Sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 150px;
+}
+
+.lista {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    font-weight: 200;
+    margin-left: 220px;
+    margin-top: -34px;
+}
+
+img {
+    height: 500px;
+    width: 900;
+    margin-left: 1008px;
+    margin-top: -602px;
+}
+
+#pe {
+    margin-top: 200px;
+    text-align:center;
+    border-top: 0.2px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+}
+
+div {
+    margin-left: 100px;
+    display: flex;
+}

@@ -1,0 +1,23 @@
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    background-color: yellow;
+    background-position: 50px 50px;
+    background-size: 50px;
+}
+
+.texto {
+
+    text-align: center ;
+}
+
+h1 {
+   
+    background-color: aqua;
+    padding: 5px;
+    padding-right: 50px;
+    
+}
